@@ -42,7 +42,7 @@
         <TextBox x:Name="xWeightLbsBox" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" Grid.Row="5" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
         <TextBlock x:Name="xYourBMIResults" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Grid.RowSpan="2" FontWeight="Bold" FontSize="60" Width="414" Grid.ColumnSpan="4"><Run Text="BMI "/><Run Text="Results"/></TextBlock>
         <TextBlock x:Name="xBMIMessage" Grid.Column="4" HorizontalAlignment="Left" Height="102" Grid.Row="4" TextWrapping="Wrap" Text="Message:" VerticalAlignment="Top" Width="412" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="4" Grid.RowSpan="2" />
-        <Button x:Name="xSubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="2,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+        <Button x:Name="xSubmitBtn" Content="Submit" HorizontalAlignment="Left" Margin="2,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="xSubmitBtn_Click"/>
         <Button x:Name="xClearBtn" Content="Clear" Grid.Column="2" HorizontalAlignment="Left" Margin="0,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75" Click="xClearBtn_Click"/>
         <Button x:Name="xImportBtn" Content="Import" Grid.Column="4" HorizontalAlignment="Left" Margin="0,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="xExitBtn" Content="Exit" Grid.Column="6" HorizontalAlignment="Left" Margin="0,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="75" Click="xExitBtn_Click"/>
